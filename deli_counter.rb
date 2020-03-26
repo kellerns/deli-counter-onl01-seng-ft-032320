@@ -1,5 +1,3 @@
-katz_deli = []
-
 def line(katz_deli)
   line_order = "#{katz_deli.length}. #{name}"
   if katz_deli.length == 0
