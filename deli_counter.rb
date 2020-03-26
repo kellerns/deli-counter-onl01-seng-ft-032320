@@ -8,11 +8,12 @@ def line(deli)
   end
 end
 
+
 def take_a_number(deli, name)
   deli << name
   puts "Welcome, #{name}. You are number #{deli.length} in line."
-  new_line = "#{deli.length}. #{name}"
 end
+
 
 def now_serving(deli)
   if deli.length == 0
@@ -21,8 +22,6 @@ def now_serving(deli)
     puts "Currently serving #{deli[0]}."
     deli.shift
   end
-
-
 end
   
   
