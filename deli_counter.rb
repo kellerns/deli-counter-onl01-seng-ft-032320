@@ -7,7 +7,6 @@ def line(katz_deli)
   else
     puts "The line is currently:" + 
   end
-  new_line_array = 
 end
 
 # def take_a_number(katz_deli, name)
